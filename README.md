@@ -75,6 +75,7 @@ The prolog interactive replies to queries by either `yes/true`, `no/false`, or a
 4. Conjunctions(AND)
 5. Disjunctions(OR)
 6. Anonymous variables
+7. Transitive Logic Example
 
 ### How to run the codes
 
