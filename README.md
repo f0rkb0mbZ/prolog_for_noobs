@@ -52,7 +52,7 @@ In a prolog script, every statement either consists of a **fact**, or a **rule**
 
 ```prolog
 % the statement below denotes a fact.
-man(socrates). % Read as charlie is a man.
+man(socrates). % Read as socrates is a man.
 
 % the statement below denotes a rule.
 mortal(X) :- man(X). % Read as 'X' is mortal if 'X' is a man.
