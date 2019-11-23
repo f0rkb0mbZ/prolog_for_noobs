@@ -1,4 +1,4 @@
-% Sample program to demonstrate conjunctions (AND, OR) in prolog
+% Sample program to demonstrate logical conjunctions (AND) in prolog
 
 likes(mary, chocolate).
 likes(mary, wine).
@@ -7,7 +7,7 @@ likes(john, wine).
 likes(john, mary).
 likes(john, burger).
 
-% , is the logical operator between two queries
+% , is the logical operator between two queries, and simply translates to the AND operation
 % likes(john, wine), likes(john, mary). % This outputs true as output of the both queries are true
 % likes(mary, chocolate), likes(john, chocolate). % This outputs false as output of one query is false
 % likes(john, X), likes(mary, X). % This outputs the items they both like.

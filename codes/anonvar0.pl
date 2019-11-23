@@ -10,7 +10,7 @@ hates(winnie, trot).
 
 % anonymous variable is denoted by '_'
 % hates(X, oswald) % Gives us who hates oswald
-% hates(_, oswald) % Gives us how many people hates oswald
+% hates(_, oswald) % Gives us if any people hate oswald
 
 % Output:
 % 1 ?- hates(X, oswald).

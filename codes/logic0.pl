@@ -13,4 +13,5 @@ play(jane, jim, badminton). % Read as 'jane and jim play badminton'
 % false.
 % 3 ?- father(john, mary).
 % true.
-
+% 4 ?- play(john, jim, football).
+% false.
