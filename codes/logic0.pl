@@ -15,3 +15,7 @@ play(jane, jim, badminton). % Read as 'jane and jim play badminton'
 % true.
 % 4 ?- play(john, jim, football).
 % false.
+% 5 ?- valuable(silver)
+% false   % since the program doesn't know about any entity named 'silver'
+% 6 ?- female(jody)
+% false
